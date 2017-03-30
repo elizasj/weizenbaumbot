@@ -1,0 +1,24 @@
+{
+  "name": "weizenbaumbot",
+  "version": "1.0.0",
+  "description": "ELIZA is an early natural language processing computer program created from 1964 to 1966 at the MIT Artificial Intelligence Laboratory by Joseph Weizenbaum.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "ELIZA",
+    "language",
+    "processing",
+    "Weizenbaum"
+  ],
+  "author": "maesj",
+  "license": "ISC",
+  "dependencies": {
+    "elizanode": "^0.1.0",
+    "twit": "^2.2.5"
+  }
+}
