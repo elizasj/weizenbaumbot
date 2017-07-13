@@ -26,10 +26,10 @@ function followed(eventMsg) {
 
 // eventMsg === json data
 function tweetEvent(eventMsg) {
-  // // write json to hd
-  // var fs = require('fs')
-  // var json = JSON.stringify(eventMsg, null, 2)
-  // fs.writeFile("tweet.json", json)
+  // write json to hd
+  var fs = require('fs')
+  var json = JSON.stringify(eventMsg, null, 2)
+  fs.writeFile("tweet.json", json)
 
   //twitter data
   var screenName = eventMsg.source.screen_name
